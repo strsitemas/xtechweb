@@ -42,3 +42,4 @@ next-env.d.ts
 
 # Backups locais do desenvolvimento STR
 *.backup-*
+.vercel

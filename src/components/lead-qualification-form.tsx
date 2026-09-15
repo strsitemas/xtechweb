@@ -164,7 +164,7 @@ export function LeadQualificationForm() {
         </span>
 
         <h3>
-          Não encontrou exatamente o que precisa?
+          Parabéns! Vamos iniciar seu projeto.
         </h3>
 
         <p>
@@ -204,7 +204,7 @@ export function LeadQualificationForm() {
             maxLength={2000}
             required
             rows={5}
-            placeholder="Ex: um site pra apresentar minha empresa, ou algo mais específico que você não encontrou nos planos acima"
+            placeholder="Conte um pouco sobre o que você precisa e o que espera alcançar com seu projeto"
           />
         </div>
 

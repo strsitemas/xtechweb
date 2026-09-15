@@ -34,7 +34,8 @@ const necessidades = [
 
 export default function Home() {
   return (
-    <main className="site-shell">
+    <>
+      <main className="site-shell">
       <header className="header">
         <div className="container header-inner">
           <a className="brand" href="#" aria-label="XTechWeb - início">
@@ -294,8 +295,16 @@ export default function Home() {
                 <span className="price-type">Para começar</span>
                 <h3>Landing Page</h3>
 
+                <Image
+                  src="/landing-page-xtechweb.png"
+                  alt="Exemplo visual de Landing Page"
+                  width={1200}
+                  height={750}
+                  className="price-product-image"
+                />
+
                 <p>
-                  Uma página focada em apresentar uma oferta,
+                  Uma página profissional focada em apresentar uma oferta,
                   serviço, produto ou campanha.
                 </p>
               </div>
@@ -308,18 +317,18 @@ export default function Home() {
               <span className="price-note">investimento inicial</span>
 
               <ul>
-                <li>1 página profissional</li>
+                <li>Página única e objetiva</li>
                 <li>Formulário de contato</li>
                 <li>Integração com WhatsApp</li>
                 <li>SEO básico</li>
-                <li>Layout responsivo</li>
+                <li>Design profissional e responsivo</li>
               </ul>
 
               <div className="price-delivery">
                 Prazo estimado: <strong>5 a 7 dias úteis</strong>
               </div>
 
-              <a href="#precisa" className="price-link">
+              <a href="#falar-projeto" className="price-link">
                 Quero uma Landing Page
                 <span aria-hidden="true"> →</span>
               </a>
@@ -332,8 +341,16 @@ export default function Home() {
                 <span className="price-type">Para sua empresa</span>
                 <h3>Site Institucional</h3>
 
+                <Image
+                  src="/site-institucional-xtechweb.png"
+                  alt="Exemplo visual de Site Institucional"
+                  width={1200}
+                  height={750}
+                  className="price-product-image"
+                />
+
                 <p>
-                  Uma presença profissional para apresentar
+                  Um site completo para apresentar
                   sua empresa, serviços e diferenciais.
                 </p>
               </div>
@@ -346,18 +363,18 @@ export default function Home() {
               <span className="price-note">investimento inicial</span>
 
               <ul>
-                <li>Até 5 páginas</li>
+                <li>Site completo e profissional</li>
                 <li>Formulário de contato</li>
                 <li>Integração com WhatsApp</li>
                 <li>SEO básico</li>
-                <li>Analytics</li>
+                <li>Apresentação da empresa e serviços</li>
               </ul>
 
               <div className="price-delivery">
                 Prazo estimado: <strong>10 a 15 dias úteis</strong>
               </div>
 
-              <a href="#precisa" className="price-link">
+              <a href="#falar-projeto" className="price-link">
                 Quero meu site
                 <span aria-hidden="true"> →</span>
               </a>
@@ -368,9 +385,17 @@ export default function Home() {
                 <span className="price-type">Para crescer</span>
                 <h3>Site Profissional</h3>
 
+                <Image
+                  src="/site-profissional-xtechweb.png"
+                  alt="Exemplo visual de Site Profissional"
+                  width={1200}
+                  height={750}
+                  className="price-product-image"
+                />
+
                 <p>
-                  Mais conteúdo, autonomia e estrutura para
-                  empresas que precisam ir além do básico.
+                  Ideal para empresas que precisam apresentar vários
+                  serviços, projetos ou áreas de atuação.
                 </p>
               </div>
 
@@ -382,18 +407,18 @@ export default function Home() {
               <span className="price-note">investimento inicial</span>
 
               <ul>
-                <li>Até 10 páginas</li>
+                <li>Site mais completo</li>
                 <li>Blog ou área de conteúdo</li>
-                <li>Gerenciamento de conteúdo</li>
+                <li>Seções personalizadas</li>
                 <li>SEO e Analytics</li>
-                <li>Recursos adicionais</li>
+                <li>Formulários e integrações</li>
               </ul>
 
               <div className="price-delivery">
                 Prazo estimado: <strong>15 a 20 dias úteis</strong>
               </div>
 
-              <a href="#precisa" className="price-link">
+              <a href="#falar-projeto" className="price-link">
                 Quero um site profissional
                 <span aria-hidden="true"> →</span>
               </a>
@@ -403,6 +428,14 @@ export default function Home() {
               <div className="price-card-top">
                 <span className="price-type">Para apresentar produtos</span>
                 <h3>Catálogo Digital</h3>
+
+                <Image
+                  src="/catalogo-digital-xtechweb.png"
+                  alt="Exemplo visual de Catálogo Digital"
+                  width={1200}
+                  height={750}
+                  className="price-product-image"
+                />
 
                 <p>
                   Organize seus produtos para consulta e receba
@@ -434,7 +467,7 @@ export default function Home() {
                 Prazo estimado: <strong>15 a 25 dias úteis*</strong>
               </div>
 
-              <a href="#precisa" className="price-link">
+              <a href="#falar-projeto" className="price-link">
                 Quero um catálogo digital
                 <span aria-hidden="true"> →</span>
               </a>
@@ -444,6 +477,14 @@ export default function Home() {
               <div className="price-card-top">
                 <span className="price-type">Para vender online</span>
                 <h3>Loja Virtual</h3>
+
+                <Image
+                  src="/loja-virtual-xtechweb.png"
+                  alt="Exemplo visual de Loja Virtual"
+                  width={1200}
+                  height={750}
+                  className="price-product-image"
+                />
 
                 <p>
                   Uma estrutura completa para apresentar produtos,
@@ -475,7 +516,7 @@ export default function Home() {
                 Prazo estimado: <strong>25 a 40 dias úteis*</strong>
               </div>
 
-              <a href="#precisa" className="price-link">
+              <a href="#falar-projeto" className="price-link">
                 Quero vender online
                 <span aria-hidden="true"> →</span>
               </a>
@@ -835,5 +876,84 @@ export default function Home() {
         </div>
       </section>
     </main>
+
+    <footer className="site-footer">
+      <div className="container">
+        <div className="footer-grid">
+
+          <div className="footer-brand">
+            <Image
+              src="/logo-xtechweb.png"
+              alt="XTechWeb"
+              width={180}
+              height={60}
+              className="footer-logo"
+            />
+
+            <p className="footer-slogan">
+              Presença digital que gera resultados.
+            </p>
+
+            <p className="footer-str">
+              Uma marca da{" "}
+              <a
+                href="https://strsoftware.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                STR Software ↗
+              </a>
+            </p>
+          </div>
+
+          <div className="footer-column">
+            <h3>Soluções</h3>
+
+            <a href="#planos">Landing Page</a>
+            <a href="#planos">Site Institucional</a>
+            <a href="#planos">Site Profissional</a>
+            <a href="#planos">Catálogo Digital</a>
+            <a href="#planos">Loja Virtual</a>
+          </div>
+
+          <div className="footer-column">
+            <h3>Institucional</h3>
+
+            <a
+              href="https://strsoftware.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              STR Software ↗
+            </a>
+
+            <a href="/termos">Termos e Condições</a>
+            <a href="/privacidade">Política de Privacidade</a>
+          </div>
+
+          <div className="footer-column">
+            <h3>Contato</h3>
+
+            <a href="mailto:contato@strsoftware.com.br">
+              contato@strsoftware.com.br
+            </a>
+
+            <a href="#falar-projeto">
+              Solicitar um projeto
+            </a>
+          </div>
+
+        </div>
+
+        <div className="footer-bottom">
+          <p>
+            © 2026 XTechWeb — Uma marca da STR Software.
+          </p>
+
+          <p>Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+    </>
   );
 }
